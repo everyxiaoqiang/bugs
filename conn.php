@@ -1,0 +1,5 @@
+<?
+@$conn=mysql_connect("localhost","root","ÄãµÄÊý¾Ý¿âÃÜÂë") or die("error connecting") ;
+mysql_select_db("wooyun", $conn);
+mysql_query("SET NAMES 'UTF8'"); 						 
+?>
